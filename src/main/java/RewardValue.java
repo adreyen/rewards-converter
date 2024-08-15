@@ -15,8 +15,8 @@ public class RewardValue {
     }
 
     //Conversion miles to cash method
-    public int MilesToCash(int Miles) {
-        return (int) (Miles * MilesToCashRate) ;
+    public double MilesToCash(int Miles) {
+        return ((double) Miles * MilesToCashRate) ;
     }
 
     //Get Cash Value (identified in RewardsConverter Class)
